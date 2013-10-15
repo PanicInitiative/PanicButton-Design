@@ -6,7 +6,7 @@ This is the design related repository. We'll put information about security desi
 Sections
 =======
 
---- Security ---
+----- Security -----
 
 - Threat modelling
 - Risk assessment
