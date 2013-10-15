@@ -7,10 +7,8 @@ Sections
 =======
 
 Security
-
--Threat modelling
-
--Risk assessment
+- Threat modelling
+- Risk assessment
 
 User centred design
 
