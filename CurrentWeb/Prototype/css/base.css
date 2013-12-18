@@ -1,0 +1,42 @@
+body{padding-top: 70px; padding-bottom: 0 !important; margin: 0}
+ul{padding: 0}
+html, body{overflow-x: hidden}
+.navbar-header .navbar-brand{color: #fff}
+.navbar-collapse .navbar-nav > li > a {color: #fff}
+.title{font-size: 16px}
+.btn-dark{background: #000; color: #fff; border-radius: 0; margin-bottom: 15px}
+.btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
+.btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
+.white{background: #fff; margin-bottom: 30px; padding-top: 0; padding-bottom: 0}
+.header h2, .header p{color: #000; font-weight: bold}
+span{font-weight: bold}
+.container p, h5{color: #000}
+.container .jumbotron{border-radius: 0}
+.jumbotron, .slide{padding-top: 70px}
+.carousel-control.left, .carousel-control.right{background: none; width: 5%}
+.slide{background: #eee; padding: 30px; margin-bottom: 30px; color: inherit;}
+.for_you p, .features p, .download p{font-size: 14px}
+.form p{font-size: 18px}
+.features .btn-dark img{margin-bottom: 0px}
+.grey{background: #aaa; color: #fff !important;}
+.download p>img{margin-bottom: 10px; float: right}
+.features img{margin-bottom: 15px}
+.right{float: right;}
+p span{font-weight: bold}
+.down_lists .btn{font-size: 12px}
+.down_lists p{height: 35px}
+.text-left{text-align: left !important}
+.text-left img{float: right}
+.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px}
+.panel-footer h4{color: #fff; font-weight: bold}
+.panel-footer ul{list-style: none}
+.panel-footer ul li{font-size: 14px}
+.panel-footer ul li a{text-decoration: underline; color: #fff}
+.panel-footer ul li ul{padding-left: 20px}
+.panel-footer ul li ul li a{text-decoration: underline; color: #fff}
+.offset{margin-bottom: 20px}
+.offset-1{margin-bottom: 80px}
+.offset-marge{margin: 0 auto; float: none; margin-bottom: 25px}
+@media (min-width: 992px){
+    .col-md-ref-offset-1{margin-left: 12.5%}
+}
