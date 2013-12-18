@@ -9,10 +9,11 @@ html, body{overflow-x: hidden}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
 .white{background: #fff; margin-bottom: 30px; padding-top: 0; padding-bottom: 0}
 .header h2, .header p{color: #000; font-weight: bold}
+.header img{height: 60px}
 span{font-weight: bold}
 .container p, h5{color: #000}
 .container .jumbotron{border-radius: 0}
-.jumbotron, .slide{padding-top: 70px}
+.jumbotron, .slide{padding-top: 100px !important}
 .carousel-control.left, .carousel-control.right{background: none; width: 5%}
 .slide{background: #eee; padding: 30px; margin-bottom: 30px; color: inherit;}
 .for_you p, .features p, .download p{font-size: 14px}
@@ -21,10 +22,12 @@ span{font-weight: bold}
 .grey{background: #aaa; color: #fff !important;}
 .download p>img{margin-bottom: 10px; float: right}
 .features img{margin-bottom: 15px}
+.features .text-center img{height: 250px}
 .right{float: right;}
 p span{font-weight: bold}
 .down_lists .btn{font-size: 12px}
 .down_lists p{height: 35px}
+.down_lists p>img{height: 30px; margin-right: 10px; margin-top: 1px}
 .text-left{text-align: left !important}
 .text-left img{float: right}
 .panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px}
