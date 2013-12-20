@@ -5,36 +5,36 @@
         <override controlID="0" x="0" y="0" w="268" h="510"/>
         <override controlID="1" x="417" y="88" w="235" h="22"/>
         <override controlID="2" x="588" y="88" w="64" h="23"/>
-        <override controlID="0:6" x="29" y="467" w="-1" h="-1"/>
-        <override controlID="0:12" x="222" y="467" w="-1" h="-1"/>
-        <override controlID="0:0" x="0" y="401" w="267" h="109"/>
-        <override controlID="0:2" x="16" y="55" w="235" h="370"/>
-        <override controlID="0:3" x="119" y="4" w="-1" h="-1"/>
-        <override controlID="0:8" x="72" y="466" w="-1" h="-1"/>
-        <override controlID="0:14" x="16" y="57" w="235" h="367"/>
-        <override controlID="0:16" x="200" y="31" w="-1" h="-1"/>
+        <override controlID="1:1" x="4" y="3" w="-1" h="-1"/>
+        <override controlID="0:13" x="171" y="467" w="-1" h="-1"/>
         <override controlID="0:4" x="8" y="31" w="252" h="403"/>
+        <override controlID="0:18" x="214" y="58" w="-1" h="-1"/>
         <override controlID="0:19" x="233" y="58" w="-1" h="-1"/>
-        <override controlID="-1"/>
-        <override controlID="0:1" x="0" y="0" w="268" h="450"/>
+        <override controlID="0:16" x="200" y="31" w="-1" h="-1"/>
+        <override controlID="0:17" x="196" y="58" w="-1" h="-1"/>
+        <override controlID="1:0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:20" x="12" y="58" w="246" h="-1"/>
+        <override controlID="0:10" x="128" y="471" w="10" h="10"/>
+        <override controlID="0:8" x="72" y="466" w="-1" h="-1"/>
         <override controlID="0:5" x="16" y="464" w="42" h="24">
           <text/>
         </override>
-        <override controlID="0:9" x="119" y="462" w="28" h="28"/>
-        <override controlID="0:17" x="196" y="58" w="-1" h="-1"/>
-        <override controlID="0:20" x="12" y="58" w="246" h="-1"/>
+        <override controlID="0:2" x="16" y="55" w="235" h="370"/>
+        <override controlID="0:12" x="222" y="467" w="-1" h="-1"/>
         <override controlID="0:11" x="163" y="464" w="83" h="24">
           <text/>
         </override>
-        <override controlID="0:10" x="128" y="471" w="10" h="10"/>
-        <override controlID="0:18" x="214" y="58" w="-1" h="-1"/>
-        <override controlID="0:15" x="122" y="33" w="-1" h="-1"/>
-        <override controlID="0:13" x="171" y="467" w="-1" h="-1"/>
-        <override controlID="1:1" x="4" y="3" w="-1" h="-1"/>
-        <override controlID="1:0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:0" x="0" y="401" w="267" h="109"/>
         <override controlID="0:7" x="64" y="464" w="42" h="24">
           <text/>
         </override>
+        <override controlID="0:3" x="119" y="4" w="-1" h="-1"/>
+        <override controlID="-1"/>
+        <override controlID="0:6" x="29" y="467" w="-1" h="-1"/>
+        <override controlID="0:15" x="122" y="33" w="-1" h="-1"/>
+        <override controlID="0:1" x="0" y="0" w="268" h="450"/>
+        <override controlID="0:14" x="16" y="57" w="235" h="367"/>
+        <override controlID="0:9" x="119" y="462" w="28" h="28"/>
         <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23HTC%2520Desire-next%2520active</src>
       </controlProperties>
     </control>
@@ -78,7 +78,6 @@
           <text>Step%203%3A%20Create%20emergency%20message</text>
         </override>
         <override controlID="2" x="0" y="18" w="254" h="-1"/>
-        <override controlID="-1"/>
         <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23step%25203%2520write%2520emergency%2520message_</src>
       </controlProperties>
     </control>

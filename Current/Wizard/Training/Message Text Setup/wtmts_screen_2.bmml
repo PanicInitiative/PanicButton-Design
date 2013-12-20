@@ -2,9 +2,6 @@
   <controls>
     <control controlID="13" controlTypeID="com.balsamiq.mockups::Component" x="50" y="50" w="268" h="510" measuredW="268" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="0:11">
-          <text/>
-        </override>
         <override controlID="0:5">
           <text/>
         </override>
@@ -14,6 +11,9 @@
         <override controlID="0:8">
           <text>menu</text>
         </override>
+        <override controlID="0:11">
+          <text/>
+        </override>
         <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23HTC%2520Desire-next%2520active</src>
       </controlProperties>
     </control>
@@ -21,9 +21,9 @@
       <controlProperties>
         <override controlID="0" x="0" y="1" w="235" h="22"/>
         <override controlID="1" x="171" y="0" w="64" h="23"/>
+        <override controlID="0:0" x="0" y="0" w="235" h="22"/>
         <override controlID="-1"/>
         <override controlID="0:1" x="4" y="3" w="-1" h="-1"/>
-        <override controlID="0:0" x="0" y="0" w="235" h="22"/>
         <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23next-disabled</src>
       </controlProperties>
     </control>
@@ -40,7 +40,6 @@
           <text>Step%203%3A%20Write%20emergency%20message</text>
         </override>
         <override controlID="2" x="0" y="18" w="254" h="-1"/>
-        <override controlID="-1"/>
         <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23step%25203%2520write%2520emergency%2520message_</src>
       </controlProperties>
     </control>
