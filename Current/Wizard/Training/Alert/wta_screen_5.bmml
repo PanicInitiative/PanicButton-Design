@@ -1,0 +1,111 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="308" measuredH="550" mockupW="268" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="40" y="40" w="268" h="510" measuredW="268" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="268" h="510" measuredW="268" measuredH="510" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties>
+            <override controlID="0:5">
+              <text/>
+            </override>
+            <override controlID="0:8">
+              <text>menu</text>
+            </override>
+            <override controlID="0:7">
+              <text/>
+            </override>
+            <override controlID="0:11">
+              <text/>
+            </override>
+            <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23HTC%2520Desire-next%2520active</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="15" y="121" w="239" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="16" y="127" w="235" h="290" measuredW="235" measuredH="290" zOrder="2" locked="false" isInGroup="0">
+          <controlProperties>
+            <override controlID="0" x="0" y="0" w="235" h="290"/>
+            <override controlID="1" x="64" y="83" w="52" h="44"/>
+            <override controlID="2" x="8" y="83" w="52" h="44"/>
+            <override controlID="3" x="119" y="83" w="52" h="44"/>
+            <override controlID="4" x="175" y="83" w="52" h="44"/>
+            <override controlID="5" x="64" y="134" w="52" h="44"/>
+            <override controlID="6" x="8" y="134" w="52" h="44"/>
+            <override controlID="7" x="119" y="134" w="52" h="44"/>
+            <override controlID="8" x="175" y="134" w="52" h="44"/>
+            <override controlID="9" x="64" y="186" w="52" h="44"/>
+            <override controlID="10" x="8" y="186" w="52" h="44"/>
+            <override controlID="11" x="119" y="186" w="52" h="44"/>
+            <override controlID="12" x="175" y="186" w="52" h="44"/>
+            <override controlID="13" x="64" y="239" w="52" h="44"/>
+            <override controlID="14" x="8" y="239" w="52" h="44"/>
+            <override controlID="15" x="119" y="239" w="108" h="44"/>
+            <override controlID="16" x="181" y="11" w="41" h="75"/>
+            <override controlID="17" x="0" y="0" w="235" h="7"/>
+            <override controlID="18" x="1" y="3" w="233" h="7"/>
+            <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23calculator-facade</src>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Component" x="17" y="76" w="235" h="22" measuredW="235" measuredH="22" zOrder="3" locked="false" isInGroup="0">
+          <controlProperties>
+            <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23next-in-focus</src>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="__group__" x="56" y="301" w="233" h="37" measuredW="233" measuredH="37" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>android%20toast</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="__group__" x="0" y="0" w="233" h="37" measuredW="233" measuredH="37" zOrder="0" locked="false" isInGroup="1">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="37" h="37" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="3">
+              <controlProperties>
+                <backgroundAlpha>1</backgroundAlpha>
+                <borderColor>3355443</borderColor>
+                <color>3355443</color>
+                <shape>circle</shape>
+                <size>12</size>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="196" y="0" w="37" h="37" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <backgroundAlpha>1</backgroundAlpha>
+                <borderColor>3355443</borderColor>
+                <color>3355443</color>
+                <shape>circle</shape>
+                <size>12</size>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="17" y="0" w="198" h="37" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="3">
+              <controlProperties>
+                <backgroundAlpha>1</backgroundAlpha>
+                <borderColor>3355443</borderColor>
+                <color>3355443</color>
+                <shape>rectangle</shape>
+                <size>12</size>
+                <text>Tap%20a%20calculator%20button%20fives%20times</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Component" x="49" y="141" w="238" h="24" measuredW="238" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="-1" h="-1"/>
+        <override controlID="1" x="19" y="2" w="-1" h="-1">
+          <size>12</size>
+        </override>
+        <override controlID="-1"/>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23step%25204.%2520set%2520off</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

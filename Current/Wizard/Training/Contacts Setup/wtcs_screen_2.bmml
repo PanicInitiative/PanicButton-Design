@@ -1,0 +1,157 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="318" measuredH="560" mockupW="268" mockupH="510">
+  <controls>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Component" x="50" y="50" w="268" h="510" measuredW="268" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0:11">
+          <text/>
+        </override>
+        <override controlID="0:7">
+          <text/>
+        </override>
+        <override controlID="0:5">
+          <text/>
+        </override>
+        <override controlID="0:8">
+          <text>menu</text>
+        </override>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23HTC%2520Desire-next%2520active</src>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="__group__" x="76" y="277" w="216" h="109" measuredW="216" measuredH="109" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="216" h="27" measuredW="216" measuredH="27" zOrder="0" locked="false" isInGroup="8">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="16" y="1" w="200" h="26" measuredW="200" measuredH="26" zOrder="0" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="0" w="200" h="26" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <state>focused</state>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="174" y="2" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <icon>ContactIcon%7Csmall</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::VRule" x="166" y="0" w="-1" h="26" measuredW="10" measuredH="100" zOrder="2" locked="false" isInGroup="0"/>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="14" measuredH="23" zOrder="1" locked="false" isInGroup="0">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>1.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="42" w="216" h="26" measuredW="216" measuredH="26" zOrder="1" locked="false" isInGroup="8">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="16" y="0" w="200" h="26" measuredW="200" measuredH="26" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23contact%2520picker</src>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="2" w="18" h="-1" measuredW="14" measuredH="23" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>2.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="0" y="83" w="216" h="26" measuredW="216" measuredH="26" zOrder="2" locked="false" isInGroup="8">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="16" y="0" w="200" h="26" measuredW="200" measuredH="26" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23contact%2520picker</src>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="2" w="18" h="-1" measuredW="14" measuredH="23" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>3.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Component" x="67" y="126" w="235" h="23" measuredW="235" measuredH="23" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="1" w="235" h="22"/>
+        <override controlID="1" x="171" y="0" w="64" h="23"/>
+        <override controlID="0:0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:1" x="4" y="3" w="-1" h="-1"/>
+        <override controlID="-1"/>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23next-disabled</src>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="65" y="151" w="217" h="24" measuredW="217" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="10">
+          <controlProperties>
+            <icon>UsersIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="25" y="2" w="-1" h="-1" measuredW="192" measuredH="20" zOrder="1" locked="false" isInGroup="10">
+          <controlProperties>
+            <size>12</size>
+            <text>Step%202%3A%20Set-up%20your%20trusted%20contacts</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::HRule" x="65" y="171" w="239" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="75" y="193" w="216" h="66" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Think%20first%21%20Your%20trusted%20contacts%20should%20be%20people%20that%20you%20know%20personally%20and%20should%20be%20prepared%20and%20able%20to%20respond%20fast.</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Canvas" x="66" y="130" w="32" h="19" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>13421772</color>
+        <href>screen_1%26bm%3Bscreen_1.bmml%26bm%3Bscreen_1.bmml%26bm%3Bscreen_1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2216%2C80%2C48%2C99%22%20href%3D%22screen_1.bmml%22%20alt%3D%22screen_1%22%20id%3D%2214%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Canvas" x="96" y="280" w="162" h="22" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+        <color>13421772</color>
+        <href>screen_3%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2246%2C230%2C208%2C252%22%20href%3D%22screen_3.bmml%22%20alt%3D%22screen_3%22%20id%3D%2217%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Canvas" x="94" y="320" w="162" h="22" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+        <color>13421772</color>
+        <href>screen_3%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2244%2C270%2C206%2C292%22%20href%3D%22screen_3.bmml%22%20alt%3D%22screen_3%22%20id%3D%2218%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Canvas" x="94" y="362" w="162" h="22" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+        <color>13421772</color>
+        <href>screen_3%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml%26bm%3Bscreen_3.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2244%2C312%2C206%2C334%22%20href%3D%22screen_3.bmml%22%20alt%3D%22screen_3%22%20id%3D%2219%22/%3E</map>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
