@@ -1,0 +1,109 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="318" measuredH="560" mockupW="268" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="50" y="50" w="268" h="510" measuredW="268" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="268" h="510"/>
+        <override controlID="1" x="417" y="88" w="235" h="22"/>
+        <override controlID="2" x="588" y="88" w="64" h="23"/>
+        <override controlID="0:20" x="12" y="58" w="246" h="-1"/>
+        <override controlID="0:16" x="200" y="31" w="-1" h="-1"/>
+        <override controlID="0:0" x="0" y="401" w="267" h="109"/>
+        <override controlID="0:2" x="16" y="55" w="235" h="370"/>
+        <override controlID="0:15" x="122" y="33" w="-1" h="-1"/>
+        <override controlID="0:13" x="171" y="467" w="-1" h="-1"/>
+        <override controlID="1:0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:12" x="222" y="467" w="-1" h="-1"/>
+        <override controlID="0:1" x="0" y="0" w="268" h="450"/>
+        <override controlID="0:3" x="119" y="4" w="-1" h="-1"/>
+        <override controlID="0:11" x="163" y="464" w="83" h="24">
+          <text/>
+        </override>
+        <override controlID="0:4" x="8" y="31" w="252" h="403"/>
+        <override controlID="0:7" x="64" y="464" w="42" h="24">
+          <text/>
+        </override>
+        <override controlID="0:10" x="128" y="471" w="10" h="10"/>
+        <override controlID="0:17" x="196" y="58" w="-1" h="-1"/>
+        <override controlID="0:5" x="16" y="464" w="42" h="24">
+          <text/>
+        </override>
+        <override controlID="0:18" x="214" y="58" w="-1" h="-1"/>
+        <override controlID="0:14" x="16" y="57" w="235" h="367"/>
+        <override controlID="-1"/>
+        <override controlID="0:9" x="119" y="462" w="28" h="28"/>
+        <override controlID="0:6" x="29" y="467" w="-1" h="-1"/>
+        <override controlID="1:1" x="4" y="3" w="-1" h="-1"/>
+        <override controlID="0:19" x="233" y="58" w="-1" h="-1"/>
+        <override controlID="0:8" x="72" y="466" w="-1" h="-1"/>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23HTC%2520Desire-next%2520active</src>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="__group__" x="67" y="149" w="217" h="24" measuredW="217" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <icon>UsersIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="25" y="2" w="-1" h="-1" measuredW="192" measuredH="20" zOrder="1" locked="false" isInGroup="1">
+          <controlProperties>
+            <size>12</size>
+            <text>Step%202%3A%20Set-up%20your%20trusted%20contacts</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="65" y="169" w="239" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="66" y="439" w="235" h="39" measuredW="235" measuredH="39" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <text>I%20understand.%20Set-up%20%0Amy%20trusted%20contacts%20now</text>
+        </override>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23i%2520understand%2520button</src>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Component" x="66" y="128" w="235" h="22" measuredW="235" measuredH="22" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:0" x="0" y="0" w="235" h="22"/>
+        <override controlID="0:1" x="4" y="3" w="16" h="16"/>
+        <override controlID="-1"/>
+        <src>../../../../../../../Documents/UX%2520Work/Balsamiq_Projects/amnesty/panicbutton_riskassessment_ui/assets/symbols.bmml%23next-in-focus</src>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="73" y="188" w="-1" h="-1" measuredW="67" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Learn%20more</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="81" y="230" w="190" h="106" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Donec%20a%20diam%20lectus.%20Sed%20sit%20amet%20ipsum%20mauris.%20Maecenas%20congue%20ligula%20ac%20quam%20viverra%20nec%20consectetur%20ante%20hendrerit.%20Donec%20et%20mollis%20dolor.</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="66" y="130" w="32" h="19" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>13421772</color>
+        <href>screen_1%26bm%3Bscreen_1.bmml%26bm%3Bscreen_1.bmml%26bm%3Bscreen_1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2216%2C80%2C48%2C99%22%20href%3D%22screen_1.bmml%22%20alt%3D%22screen_1%22%20id%3D%2210%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="73" y="442" w="211" h="32" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <href>screen_2%26bm%3Bscreen_2.bmml%26bm%3Bscreen_2.bmml%26bm%3Bscreen_2.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2223%2C392%2C234%2C424%22%20href%3D%22screen_2.bmml%22%20alt%3D%22screen_2%22%20id%3D%2211%22/%3E</map>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
