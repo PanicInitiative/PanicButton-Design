@@ -3,10 +3,11 @@ ul{padding: 0}
 html, body{overflow-x: hidden}
 .navbar-header .navbar-brand{color: #fff}
 .navbar-collapse .navbar-nav > li > a {color: #fff}
-.title{font-size: 16px; cursor: default}
+.title{font-size: 16px; cursor: default; border-radius: 0 !important}
 .btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 15px;}
 .btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
+.jumbotron{background: #efefef}
 .white{background: #fff; margin-bottom: 30px; padding-top: 0; padding-bottom: 0}
 .header h2, .header p{color: #000; font-weight: bold}
 .header img{height: 60px}
@@ -17,6 +18,7 @@ span{font-weight: bold}
 .border{border: 3px solid red; padding: 10px 20px}
 .back, .option{display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #000; text-decoration: underline}
 .option{font-weight: bold; width: 100%}
+.form{height: 400px}
 .form .btn{white-space: normal}
 .back:hover, .back:active, .option:hover, .option:active{color: #000}
 .carousel-control.left, .carousel-control.right{background: none; width: 5%}
@@ -26,7 +28,7 @@ span{font-weight: bold}
 .col-xs-ref-offset-3{margin-left: 30%}
 .step-progress img{width: 100%}
 .features .btn-dark img{margin-bottom: 0px}
-.grey{background: #aaa; color: #fff !important;}
+.grey{background: #999999; color: #fff !important;}
 .download p>img{margin-bottom: 10px; float: right}
 .features img{margin-bottom: 15px}
 .features .text-center img{height: 250px}
@@ -43,7 +45,7 @@ p span{font-weight: bold}
 .sign .btn{height: 25px; margin: 0; font-size: 12px; line-height: 1em}
 .sign input[type='email']{width: 100%;line-height: 1em;height: 25px;font-size: 14px; outline: none}
 .sign-text{font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 0}
-.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important}
+.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
 .panel-footer h4 a{color: #fff; font-weight: bold; text-decoration: underline}
 .panel-footer ul{list-style: none}
 .panel-footer .container{padding-bottom: 100px}
@@ -58,6 +60,7 @@ p span{font-weight: bold}
     .col-md-ref-offset-0{margin-left: 2%}
     .col-md-ref-offset-1{margin-left: 10% !important}
     .col-md-ref-offset-2{margin-left: 30% !important}
+    .col-md-ref{width: 20%; position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px;}
     .text-position{text-align: right !important;}
 }
 
@@ -65,7 +68,8 @@ p span{font-weight: bold}
     .col-sm-ref-offset-0 {margin-left: 2%}
     .col-sm-ref-offset-1 {margin-left: 6%}
     .col-sm-ref-offset-2 {margin-left: 30%}
-    .text-position{text-align: right !important;}
+    .col-sm-ref{width: 20%; position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px;}
+    .text-position{text-align: right !important}
 }
 
 @media (max-width: 767px){
