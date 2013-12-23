@@ -29,16 +29,17 @@
         </div>
         <div class="collapse navbar-collapse navbar-scroll">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#how">How it works</a></li>
+                <li class="active"><a href="#myCarousel">How it works</a></li>
                 <li><a href="#is">Is it for you?</a></li>
                 <li><a href="#features">Features</a></li>
+                <li><a href="#footer">More <img src="images/arrow.png"></a></li>
                 <li><a href="#download">Download <img src="images/download.png"></a></li>
             </ul>
         </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
 </div>
 <div id="content" data-spy="scroll" data-target=".navbar-scroll" data-offset="70">
-    <section class="jumbotron white header" id="how">
+    <section class="jumbotron white header">
         <div class="container">
             <div class="row col-lg-7 col-md-7 col-sm-7 offset">
                 <h2>PANIC BUTTON</h2>
@@ -67,11 +68,15 @@
             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
             <li data-target="#myCarousel" data-slide-to="2" class=""></li>
         </ol>
+        <div class="container">
+            <div class="row col-lg-4 col-sm-4 col-md-4">
+                <p><a class="btn btn-dark title" role="button"><span>How does </span>PANIC BUTTON <span>work?</span></a></p>
+            </div>
+        </div>
         <div class="carousel-inner">
             <div class="item active">
                 <div class="container">
                     <div class="row col-lg-4 col-sm-4 col-md-4">
-                        <p><a class="btn btn-dark title" role="button"><span>How does </span>PANIC BUTTON <span>work?</span></a></p>
                         <div class="offset-1">
                             <p>Your three contacts will receive an SMS and map with your location every five minutes once the app is alerted.</p>
                         </div>
@@ -88,7 +93,6 @@
             <div class="item">
                 <div class="container">
                     <div class="row col-lg-4 col-sm-4 col-md-4">
-                        <p><a class="btn btn-dark title" role="button"><span>How does </span>PANIC BUTTON <span>work?</span></a></p>
                         <div class="offset-1">
                             <p>Your three contacts will receive an SMS and map with your location every five minutes once the app is alerted.</p>
                         </div>
@@ -105,7 +109,6 @@
             <div class="item">
                 <div class="container">
                     <div class="row col-lg-4 col-sm-4 col-md-4">
-                        <p><a class="btn btn-dark title" role="button"><span>How does </span>PANIC BUTTON <span>work?</span></a></p>
                         <div class="offset-1">
                             <p>Your three contacts will receive an SMS and map with your location every five minutes once the app is alerted.</p>
                         </div>
@@ -127,21 +130,24 @@
     <section class="jumbotron white" id="is">
         <div class="container">
             <div class="row col-lg-5 col-md-5 col-sm-5">
-                <p><a class="btn btn-dark title" role="button"><span>Is</span> PANIC BUTTON <span>right for you?</span> </a></p>
+                <p class="btn btn-dark title" role="button"><span>Is</span> PANIC BUTTON <span>right for you?</span></p>
             </div>
         </div>
         <div class="container">
-            <div class="row col-lg-8 col-md-8 col-sm-8 offset-marge jumbotron text-center form">
+            <div class="row col-lg-10 col-md-10 col-sm-10 offset-marge jumbotron text-center form">
                 <div class="step-1">
-                    <p>Do you own and have independent access to your phone?</p>
+                    <p>What type of phone do you have?</p><br/>
                     <p>
-                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-5 col-xs-12" role="button">Yes </a>
-                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-offset-2 col-md-ref-offset-1" role="button">No</a>
-                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-1" role="button">I don't know</a>
+                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 col-sm-ref-offset-1 col-md-ref-offset-1 sub" role="button" data-option="sub_1">Basic Phone</a>
+                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">Smart Phone - Android</a>
+                        <a class="btn btn-grey col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">Smart Phone - iphone</a>
                     </p>
                     <div class="clearfix"></div>
                     <p>Step 1 / 5</p>
-                    <p><img src="images/step-1.png"></p>
+                    <div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3">
+                        <p><img src="images/step-1.png"></p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -160,7 +166,9 @@
 
     <section class="jumbotron features" id="features">
         <div class="container">
-            <p><a class="btn btn-dark title" role="button">PANIC BUTTON<span>'s Features</span></a></p>
+            <div class="row col-lg-10 col-md-10 col-sm-10">
+                <p class="btn btn-dark title" role="button">PANIC BUTTON<span>'s Features</span></p>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <p>Sends emergency SMS to your three trusted contacts in an emergency</p>
                 <p>Attaches map link with location coordinates when GPS is enabled</p>
@@ -182,7 +190,7 @@
     <section class="jumbotron download white" id="download">
         <div class="container">
             <div class="row col-lg-6 col-md-6 col-sm-6">
-                <p><a class="btn btn-dark col-lg-12 col-md-12 col-sm-12 title" role="button"><span>Download</span></a></p>
+                <p class="btn btn-dark col-lg-12 col-md-12 col-sm-12 title"><span>Download</span></p>
                 <br>
                 <h5><span>Download</span> PANIC BUTTON</h5>
                 <p>F-Droid respects your privacy. F-Droid doesn't track you, or your device. F-Droid doesn't track what you install.</p>
@@ -200,49 +208,56 @@
         </div>
     </section>
 
-    <div class="jumbotron panel-footer">
+    <section class="jumbotron sign">
+        <div class="row">
+                <div class="row col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p class="sign-text text-position">Stay in Touch</p>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
+                    <p><input type="email" placeholder="enter your email address"></p>
+                </div>
+                <div class="row col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p><a class="btn btn-dark" role="button">Sign Up</a></p>
+                </div>
+        </div>
+    </section>
+    <div class="jumbotron panel-footer" id="footer">
         <div class="container">
-            <div class="row col-lg-4 col-md-4 col-sm-4">
-                <h4>PANIC BUTTON</h4>
+            <div class="col-lg-2 col-md-2 col-sm-4">
+                <h4><a href="#">Home</a></h4>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4">
+                <h4><a href="#">About</a></h4>
                 <ul>
-                    <li><a href="#how">How it works</a></li>
-                    <li><a href="#is">Is it for you?</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#download">Download</a></li>
+                    <li>The story and organisations behind PANIC BUTTON.</li>
                 </ul>
             </div>
-            <div class="row col-lg-4 col-md-4 col-sm-4">
-                <h4>Help</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <h4><a href="#">Get involved</a></h4>
                 <ul>
-                    <li><a href="#">Section A</a></li>
-                    <li><a href="#">Section B</a></li>
-                    <li><a href="#">Section C</a></li>
-                    <li>
-                        <ul>
-                            <li><a href="#">SubSection A</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Section D</a></li>
-                    <li>
-                        <ul>
-                            <li><a href="#">SubSection B</a></li>
-                            <li><a href="#">SubSection C</a></li>
-                        </ul>
-                    </li>
+                    <li>If you're a developer or want to help us improve PANIC BUTTON.</li>
                 </ul>
             </div>
-            <div class="row col-lg-4 col-md-4 col-sm-4">
-                <h4>Follow</h4>
+            <div class="col-lg-2 col-md-2 col-sm-4">
+                <h4><a href="#">Help</a></h4>
                 <ul>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">RSS</a></li>
-                    <li><a href="#">Email</a></li>
+                    <li>Learn more about managing risk.</li>
                 </ul>
-                <h4>Developers</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <h4><a href="#">Blog</a></h4>
                 <ul>
-                    <li><a href="#">Contribute</a></li>
-                    <li><a href="#">Github</a></li>
+                    <li>Hear about what is going on with PANIC BUTTON.</li>
                 </ul>
+            </div>
+        </div>
+        <div class="row contact">
+            <div class="col-lg-12">
+                <a href="#">Privacy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Sitemap</a>
+                <a href="#">contact us</a>
             </div>
         </div>
     </div>

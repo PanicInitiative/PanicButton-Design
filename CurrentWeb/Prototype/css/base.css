@@ -3,8 +3,8 @@ ul{padding: 0}
 html, body{overflow-x: hidden}
 .navbar-header .navbar-brand{color: #fff}
 .navbar-collapse .navbar-nav > li > a {color: #fff}
-.title{font-size: 16px}
-.btn-dark{background: #000; color: #fff; border-radius: 0; margin-bottom: 15px}
+.title{font-size: 16px; cursor: default}
+.btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 15px;}
 .btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
 .white{background: #fff; margin-bottom: 30px; padding-top: 0; padding-bottom: 0}
@@ -12,12 +12,19 @@ html, body{overflow-x: hidden}
 .header img{height: 60px}
 span{font-weight: bold}
 .container p, h5{color: #000}
-.container .jumbotron{border-radius: 0}
+.container .jumbotron{border-radius: 0; padding-right: 20px; padding-left: 20px}
 .jumbotron, .slide{padding-top: 100px !important}
+.border{border: 3px solid red; padding: 10px 20px}
+.back, .option{display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #000; text-decoration: underline}
+.option{font-weight: bold; width: 100%}
+.form .btn{white-space: normal}
+.back:hover, .back:active, .option:hover, .option:active{color: #000}
 .carousel-control.left, .carousel-control.right{background: none; width: 5%}
 .slide{background: #eee; padding: 30px; margin-bottom: 30px; color: inherit;}
 .for_you p, .features p, .download p{font-size: 14px}
 .form p{font-size: 18px}
+.col-xs-ref-offset-3{margin-left: 30%}
+.step-progress img{width: 100%}
 .features .btn-dark img{margin-bottom: 0px}
 .grey{background: #aaa; color: #fff !important;}
 .download p>img{margin-bottom: 10px; float: right}
@@ -30,16 +37,37 @@ p span{font-weight: bold}
 .down_lists p>img{height: 30px; margin-right: 10px; margin-top: 1px}
 .text-left{text-align: left !important}
 .text-left img{float: right}
-.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px}
-.panel-footer h4{color: #fff; font-weight: bold}
+.sign{font-size: 14px; line-height: 1em; padding: 10px 0 !important; margin: 0}
+.sign p{padding: 10px 0; margin-bottom: 0}
+.sign .text-position{text-align: center}
+.sign .btn{height: 25px; margin: 0; font-size: 12px; line-height: 1em}
+.sign input[type='email']{width: 100%;line-height: 1em;height: 25px;font-size: 14px; outline: none}
+.sign-text{font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 0}
+.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important}
+.panel-footer h4 a{color: #fff; font-weight: bold; text-decoration: underline}
 .panel-footer ul{list-style: none}
-.panel-footer ul li{font-size: 14px}
-.panel-footer ul li a{text-decoration: underline; color: #fff}
-.panel-footer ul li ul{padding-left: 20px}
-.panel-footer ul li ul li a{text-decoration: underline; color: #fff}
+.panel-footer .container{padding-bottom: 100px}
+.panel-footer ul li{font-size: 14px;text-decoration: none; color: #fff}
+.contact{background: #000; text-align: center}
+.contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 0 0 5px}
+.contact a:first-child{border-left: 0}
 .offset{margin-bottom: 20px}
 .offset-1{margin-bottom: 80px}
 .offset-marge{margin: 0 auto; float: none; margin-bottom: 25px}
 @media (min-width: 992px){
-    .col-md-ref-offset-1{margin-left: 12.5%}
+    .col-md-ref-offset-0{margin-left: 2%}
+    .col-md-ref-offset-1{margin-left: 10% !important}
+    .col-md-ref-offset-2{margin-left: 30% !important}
+    .text-position{text-align: right !important;}
+}
+
+@media (min-width: 768px){
+    .col-sm-ref-offset-0 {margin-left: 2%}
+    .col-sm-ref-offset-1 {margin-left: 6%}
+    .col-sm-ref-offset-2 {margin-left: 30%}
+    .text-position{text-align: right !important;}
+}
+
+@media (max-width: 767px){
+    .sign .col-xs-12{text-align: center}
 }
