@@ -1,10 +1,17 @@
 $(document).ready(function(){
-    $('.btn.btn-dark, ul a').click(function(){
+
+    $('.btn.btn-dark, ul a, .up a').click(function(){
         var $href = $(this).attr('href');
         var $anchor = $($href).offset();
-        $('body').animate({ scrollTop: $anchor.top });
-        return false;
+        if($anchor){
+            $('body').animate({ scrollTop: $anchor.top});
+        }
+        else{
+            $('body').animate({ scrollTop: 0 });
+        }
+        return true;
     })
+
 
     var step_1 =
         '<div class="step-1">' +

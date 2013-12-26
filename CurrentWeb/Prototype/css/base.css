@@ -3,18 +3,17 @@ ul{padding: 0}
 html, body{overflow-x: hidden}
 .navbar-header .navbar-brand{color: #fff}
 .navbar-collapse .navbar-nav > li > a {color: #fff}
-.title{font-size: 16px; cursor: default; border-radius: 0 !important}
+.title{font-size: 16px !important; cursor: default; border-radius: 0 !important}
 .btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 15px;}
 .btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
-.jumbotron{background: #efefef}
-.white{background: #fff; margin-bottom: 30px; padding-top: 0; padding-bottom: 0}
+.jumbotron{background: #efefef; font-size: 14px}
+.white{background: #fff; margin-bottom: 30px}
 .header h2, .header p{color: #000; font-weight: bold}
 .header img{height: 60px}
 span{font-weight: bold}
 .container p, h5{color: #000}
 .container .jumbotron{border-radius: 0; padding-right: 20px; padding-left: 20px}
-.jumbotron, .slide{padding-top: 100px !important}
 .border{border: 3px solid red; padding: 10px 20px}
 .back, .option{display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #000; text-decoration: underline}
 .option{font-weight: bold; width: 100%}
@@ -23,7 +22,7 @@ span{font-weight: bold}
 .back:hover, .back:active, .option:hover, .option:active{color: #000}
 .carousel-control.left, .carousel-control.right{background: none; width: 5%}
 .slide{background: #eee; padding: 30px; margin-bottom: 30px; color: inherit;}
-.for_you p, .features p, .download p{font-size: 14px}
+.for_you p, .features p, .download p, .story p, .organisations p, .press ul li, .help p, .using li a, .using li{font-size: 14px}
 .form p{font-size: 18px}
 .col-xs-ref-offset-3{margin-left: 30%}
 .step-progress img{width: 100%}
@@ -53,6 +52,32 @@ p span{font-weight: bold}
 .contact{background: #000; text-align: center}
 .contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 0 0 5px}
 .contact a:first-child{border-left: 0}
+
+/* about page */
+#about{padding-top: 70px}
+.link{color: #000}
+.link a{color: #000; text-decoration: underline}
+.organisations img{height: 60px; margin-bottom: 10px}
+.press ul{margin: 0; padding: 0 30px; color: #000}
+.press ul span{text-decoration: underline}
+
+/* Help page */
+.help{padding: 30px 0}
+.help .title{margin-bottom: 50px}
+
+/* Help edit page*/
+.using{margin-bottom: 0; padding: 30px 0;}
+.using li a{color: #000; text-decoration: underline}
+.using ul, .using ul ul{padding: 0 30px}
+.installation a, .configuration a{color: #000; text-decoration: underline; cursor: pointer}
+.configuration .text-center img{padding: 0 30px; height: 250px}
+.up img{height: 10px; cursor: pointer}
+.sub-link{font-size: 16px}
+.black{background: #555; margin-top: 20px; margin-bottom: 20px}
+.black p{color: #fff !important; font-size: 16px; font-weight: bold; margin-left: 55px; padding: 10px 0; margin-bottom: 0}
+.black img{height: 40px; margin: auto; position: absolute; top: 0; bottom: 0;}
+
+
 .offset{margin-bottom: 20px}
 .offset-1{margin-bottom: 80px}
 .offset-marge{margin: 0 auto; float: none; margin-bottom: 25px}
