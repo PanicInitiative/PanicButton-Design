@@ -39,25 +39,25 @@ p span{font-weight: bold}
 .text-left{text-align: left !important}
 .text-left img{float: right}
 .sign{font-size: 14px; line-height: 1em; padding: 10px 0 !important; margin: 0}
-.sign p{padding: 10px 0; margin-bottom: 0}
-.sign .text-position{text-align: center}
+.sign p{margin-bottom: 0}
+.sign .text-position{text-align: center; line-height: 1em}
 .sign .btn{height: 25px; margin: 0; font-size: 12px; line-height: 1em}
 .sign input[type='email']{width: 100%;line-height: 1em;height: 25px;font-size: 14px; outline: none}
-.sign-text{font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 0}
+.sign-text{font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 5px 0 !important;}
 .panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
 .panel-footer h4 a{color: #fff; font-weight: bold; text-decoration: underline}
 .panel-footer ul{list-style: none}
 .panel-footer .container{padding-bottom: 100px}
 .panel-footer ul li{font-size: 14px;text-decoration: none; color: #fff}
 .contact{background: #000; text-align: center}
-.contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 0 0 5px}
+.contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 10px}
 .contact a:first-child{border-left: 0}
 
 /* about page */
 #about{padding-top: 70px}
 .link{color: #000}
 .link a{color: #000; text-decoration: underline}
-.organisations img{height: 60px; margin-bottom: 10px}
+.organisations img{height: 60px; margin: 30px 0;}
 .press ul{margin: 0; padding: 0 30px; color: #000}
 .press ul span{text-decoration: underline}
 
@@ -66,12 +66,16 @@ p span{font-weight: bold}
 .help .title{margin-bottom: 50px}
 
 /* Help edit page*/
-.using{margin-bottom: 0; padding: 30px 0;}
+.using{margin-bottom: 0; padding: 30px; padding-bottom: 0}
 .using li a{color: #000; text-decoration: underline}
 .using ul, .using ul ul{padding: 0 30px}
+.installation{margin-bottom: 0; padding: 30px; padding-bottom: 0}
 .installation a, .configuration a{color: #000; text-decoration: underline; cursor: pointer}
-.configuration .text-center img{padding: 0 30px; height: 250px}
-.up img{height: 10px; cursor: pointer}
+.img-frame{padding: 10px; background: #efefef; width: 320px; margin: 5px 0 15px 15px}
+.img-frame img{width: 100%}
+.img-frame p{font-size: 12px; color: #b2b2b2; padding-top: 5px; margin-bottom: 0}
+.configuration .text-center img{padding:30px; height: 300px}
+.up img{height: 10px; cursor: pointer; padding: 0}
 .sub-link{font-size: 16px}
 .black{background: #555; margin-top: 20px; margin-bottom: 20px}
 .black p{color: #fff !important; font-size: 16px; font-weight: bold; margin-left: 55px; padding: 10px 0; margin-bottom: 0}
@@ -85,6 +89,7 @@ p span{font-weight: bold}
     .col-md-ref-offset-0{margin-left: 2%}
     .col-md-ref-offset-1{margin-left: 10% !important}
     .col-md-ref-offset-2{margin-left: 30% !important}
+    .col-md-ref-offset-3{margin-left: 12.5% !important}
     .col-md-ref{width: 20%; position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px;}
     .text-position{text-align: right !important;}
 }
@@ -99,4 +104,5 @@ p span{font-weight: bold}
 
 @media (max-width: 767px){
     .sign .col-xs-12{text-align: center}
+    .text-position{text-align: right !important;}
 }

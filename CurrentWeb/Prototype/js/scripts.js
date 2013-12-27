@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $('.btn.btn-dark, ul a, .up a').click(function(){
         var $href = $(this).attr('href');
         var $anchor = $($href).offset();
