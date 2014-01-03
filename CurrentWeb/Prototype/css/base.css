@@ -4,7 +4,7 @@ html, body{overflow-x: hidden}
 .navbar-header .navbar-brand{color: #fff}
 .navbar-collapse .navbar-nav > li > a {color: #fff}
 .title{font-size: 16px !important; cursor: default; border-radius: 0 !important}
-.btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 15px;}
+.btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 15px; white-space: normal}
 .btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
 .jumbotron{background: #efefef; font-size: 14px}

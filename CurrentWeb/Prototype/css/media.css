@@ -1,0 +1,20 @@
+@media (min-width: 320px) and (max-width: 479px) {
+    #is .form{height: 430px}
+    .down_lists .text-left{
+        width: 115px;
+    }
+    .text-left img {
+        float: right;
+        vertical-align: middle;
+        margin-top: -8px;
+        margin-right: -5px;
+    }
+    .down_lists p>img {
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+}
+@media (min-width: 480px) and (max-width: 639px) {}
+@media (min-width: 640px) and (max-width: 767px) {}
