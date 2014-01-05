@@ -1,17 +1,23 @@
 $(document).ready(function(){
     $('.btn.btn-dark, ul a, .up a').click(function(){
         var $href = $(this).attr('href');
+        var offset = $(this).attr('data-offset');
         var $anchor = $($href).offset();
         if($anchor){
-            $('body').animate({ scrollTop: $anchor.top});
+            if(offset){
+                $('body').animate({ scrollTop: $anchor.top-offset});
+            }else{
+                $('body').animate({ scrollTop: $anchor.top});
+                return false;
+            }
         }
         else{
             if($(this).hasClass('restart') || $(this).hasClass('sub') )
                 return true;
             else
                 $('body').animate({ scrollTop: 0 });
+                return true;
         }
-        return true;
     })
 
 
@@ -36,11 +42,12 @@ $(document).ready(function(){
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">No</a>' +
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">I do not know</a>' +
             '</p>' +
+            '<div class="clearfix"></div>' +
             '<p>' +
-            '<a class="back col-xs-12 sub-back" role="button">back</a>' +
+            '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 2 / 5</p>' +
             '</p>' +
             '<div class="clearfix"></div>' +
-            '<p>Question 2 / 5</p>' +
             '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
         '</div>';
 
@@ -52,11 +59,12 @@ $(document).ready(function(){
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">No</a>' +
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">I do not know</a>' +
             '</p>' +
+            '<div class="clearfix"></div>' +
             '<p>' +
-            '<a class="back col-xs-12 sub-back" role="button">back</a>' +
+            '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 3 / 5</p>' +
             '</p>' +
             '<div class="clearfix"></div>' +
-            '<p>Question 3 / 5</p>' +
             '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
         '</div>';
 
@@ -68,11 +76,12 @@ $(document).ready(function(){
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">Second highest band</a>' +
             '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">Lower band of risk</a>' +
             '</p>' +
+            '<div class="clearfix"></div>' +
             '<p>' +
-            '<a class="back col-xs-12 sub-back" role="button">back</a>' +
+            '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 4 / 5</p>' +
             '</p>' +
             '<div class="clearfix"></div>' +
-            '<p>Question 4 / 5</p>' +
             '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-4.png"></p></div>' +
         '</div>';
 
@@ -82,11 +91,13 @@ $(document).ready(function(){
             '<p>' +
             '<a class="col-xs-12 link" role="button">Read more about good practices</a>' +
             '</p>' +
+            '<br>' +
+            '<div class="clearfix"></div>' +
             '<p>' +
-            '<a class="back col-xs-12 sub-back" role="button">back</a>' +
+            '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 5 / 5</p>' +
             '</p>' +
             '<div class="clearfix"></div>' +
-            '<p>Recommendation 5 / 5</p>' +
             '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
             '</div>';
 
@@ -110,11 +121,14 @@ $(document).ready(function(){
                                         '<p class="border">Sorry, you must have an Android phone to use Panic Button.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 1 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3">' +
                                         '<p><img src="images/step-1.png"></p>' +
                                         '</div>' +
@@ -135,11 +149,14 @@ $(document).ready(function(){
                                         '<p>You should be able to use Panic Button on Android versions___-___</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 1 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-1.png"></p></div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -159,13 +176,15 @@ $(document).ready(function(){
                                         '<p>' +
                                         '<a class="option" role="button">Tell us what model of phone you have. This will help us to prioritize future versions</a>' +
                                         '</p>' +
-                                        '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 1 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-1.png"></p></div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -216,11 +235,14 @@ $(document).ready(function(){
                                         '<p>Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 2 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -239,11 +261,14 @@ $(document).ready(function(){
                                         '<p class="border">Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 2 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -262,11 +287,14 @@ $(document).ready(function(){
                                         '<p class="border">Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 2 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -317,11 +345,14 @@ $(document).ready(function(){
                                         '<p>Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -340,11 +371,14 @@ $(document).ready(function(){
                                         '<p class="border">Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -363,11 +397,14 @@ $(document).ready(function(){
                                         '<p class="border">Your trusted contacts should be people that you know personally and should be prepared and able to respond fast when you need them. Panic Button aims to send your emergency message/s but it will not ensure a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -418,11 +455,14 @@ $(document).ready(function(){
                                         '<p class="border">Your country is known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk. </p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -441,11 +481,14 @@ $(document).ready(function(){
                                         '<p class="border">Needs text.</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -467,11 +510,14 @@ $(document).ready(function(){
                                         '</p>' +
                                         '<br>' +
                                         '<p>' +
-                                        '<a class="back col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-xs-12 sub" role="button">Continue</a>' +
+                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
                                         '</p>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>Recommendation 3 / 5</p>' +
+                                        '<p>' +
+                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
+                                        '</p>' +
+                                        '<div class="clearfix"></div>' +
                                         '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
                                         '</div>';
                                 $('.form').animate({
@@ -593,7 +639,6 @@ $(document).ready(function(){
                     break;
 
                 case "step-5":
-                    console.log("11");
                     sub_content = prev_content_4;
                     $('.form').animate({
                         left: "100%"

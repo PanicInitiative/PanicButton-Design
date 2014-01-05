@@ -71,8 +71,11 @@
         margin-right: 10px;
         margin-top: 1px;
     }
+    .help .col{width: 50%; float: left}
 }
-@media (min-width: 640px) and (max-width: 767px) {}
+@media (min-width: 640px) and (max-width: 767px) {
+    .help .col{width: 50%; float: left}
+}
 
 /* for signup section */
 @media (min-width: 320px) and (max-width: 386px) {
