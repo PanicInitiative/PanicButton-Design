@@ -17,6 +17,7 @@
         margin-right: 10px;
         margin-top: 10px;
     }
+    .help .col-lg-3{text-align: center}
 }
 @media (min-width: 320px) and (max-width: 479px) {
     #is .form{height: auto}
@@ -51,6 +52,7 @@
 
     /* help-edit page */
     .up{margin-top: 7px}
+    .help .col-lg-3{text-align: center}
 }
 @media (min-width: 480px) and (max-width: 639px) {
     .img-frame{width: 100% !important}
@@ -72,9 +74,11 @@
         margin-top: 1px;
     }
     .help .col{width: 50%; float: left}
+    .help .col-lg-3{text-align: center}
 }
 @media (min-width: 640px) and (max-width: 767px) {
     .help .col{width: 50%; float: left}
+    .help .col-lg-3{text-align: center}
 }
 
 /* for signup section */

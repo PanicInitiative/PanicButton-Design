@@ -53,7 +53,7 @@ p span{font-weight: bold}
 .sign-text{font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 5px 0 !important;}
 .panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
 .panel-footer h4 a{color: #fff; font-weight: bold; text-decoration: underline}
-.panel-footer ul{list-style: none}
+.panel-footer ul{list-style: none; padding: 0}
 .panel-footer .container{padding-bottom: 100px}
 .panel-footer ul li{font-size: 14px;text-decoration: none; color: #fff}
 .contact{background: #000; text-align: center}
