@@ -4,7 +4,7 @@ span{font-weight: bold}
 .left{float: left}
 .right{float: right}
 .navbar-header .navbar-brand, .navbar-collapse .navbar-nav > li > a{color: #fff}
-.head-link a, .head-link a:hover{color: #000; text-decoration: underline}
+.using li a, .using li a:hover, .head-link a, .head-link a:hover{color: #000; text-decoration: underline}
 .white{background: #fff; color: #000;}
 .grey{background: #efefef; color: #000;}
 .grey-1{background: #999999;color: #fff !important}
@@ -29,55 +29,27 @@ span{font-weight: bold}
 .contact a:first-child{border-left: 0}
 
 /* sign section */
-.sign {font-size: 14px; line-height: 1em;
-    padding: 10px 0 !important;
-    margin: 0;
-}
-
-.sign-text {
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff !important;
-    padding: 0;
-    margin: 5px 0 !important;
-    line-height: 1.4em;
-}
-
-.sign input[type='email'] {
-    width: 100%;
-    line-height: 1em;
-    height: 25px;
-    font-size: 14px;
-    outline: none;
-}
-
+.sign {font-size: 14px; line-height: 1em; padding: 10px 0 !important; margin: 0}
+.sign-text {font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 5px 0 !important; line-height: 1.4em}
+.sign input[type='email'] {width: 100%; line-height: 1em; height: 25px; font-size: 14px; outline: none}
 .sign p{margin: 5px 0}
+.sign .btn {margin: 0; font-size: 12px; line-height: 1em}
 
-.sign .btn {
-    margin: 0;
-    font-size: 12px;
-    line-height: 1em;
-}
+/* about page */
+.img-frame {padding: 10px; background: #efefef; width: 320px; margin: 5px 0 15px 15px}
+.img-frame img {width: 100%}
+.img-frame p { font-size: 12px; color: #b2b2b2; padding-top: 5px; margin-bottom: 0}
+.organisations img {height: 60px; margin: 30px 0}
 
-.img-frame {
-    padding: 10px;
-    background: #efefef;
-    width: 320px;
-    margin: 5px 0 15px 15px;
-}
-.img-frame img {
-    width: 100%;
-}
+/* help-edit page*/
+.installation a, .configuration a {color: #000; text-decoration: underline; cursor: pointer; outline: none}
+.black {background: #555; margin-top: 20px; margin-bottom: 20px}
+.black img {height: 40px; margin: auto; position: absolute; top: 0; bottom: 0}
+.black p {color: #fff !important; font-size: 16px; font-weight: bold; margin-left: 55px; padding: 10px 0; margin-bottom: 0}
+.sub-link {font-size: 16px}
+.configuration .text-center img {padding: 30px 0; height: 300px}
 
-.img-frame p {
-    font-size: 12px;
-    color: #b2b2b2;
-    padding-top: 5px;
-    margin-bottom: 0;
-}
-
-.organisations img {
-    height: 60px;
-    margin: 30px 0;
-}
+/* top link */
+.top{padding-right: 0; padding-left: 0}
+.top p{margin-top: 8px}
 
