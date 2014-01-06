@@ -1,0 +1,83 @@
+body{padding-top: 70px; padding-bottom: 0 !important; margin: 0}
+html, body{overflow-x: hidden}
+span{font-weight: bold}
+.left{float: left}
+.right{float: right}
+.navbar-header .navbar-brand, .navbar-collapse .navbar-nav > li > a{color: #fff}
+.head-link a, .head-link a:hover{color: #000; text-decoration: underline}
+.white{background: #fff; color: #000;}
+.grey{background: #efefef; color: #000;}
+.grey-1{background: #999999;color: #fff !important}
+
+/* button style */
+.btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 30px; white-space: normal}
+.title{font-size: 16px !important; cursor: default; border-radius: 0 !important}
+.btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
+.btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
+
+/* section style */
+.content{padding: 50px 0; font-size: 14px; margin-bottom: 0;}
+
+/* footer content */
+.panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
+.panel-footer h4 a{color: #fff; font-weight: bold; text-decoration: underline}
+.panel-footer ul{list-style: none; padding: 0}
+.panel-footer .container{padding-bottom: 100px}
+.panel-footer ul li{font-size: 14px;text-decoration: none; color: #fff}
+.contact{background: #000; text-align: center}
+.contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 10px}
+.contact a:first-child{border-left: 0}
+
+/* sign section */
+.sign {font-size: 14px; line-height: 1em;
+    padding: 10px 0 !important;
+    margin: 0;
+}
+
+.sign-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff !important;
+    padding: 0;
+    margin: 5px 0 !important;
+    line-height: 1.4em;
+}
+
+.sign input[type='email'] {
+    width: 100%;
+    line-height: 1em;
+    height: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.sign p{margin: 5px 0}
+
+.sign .btn {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.img-frame {
+    padding: 10px;
+    background: #efefef;
+    width: 320px;
+    margin: 5px 0 15px 15px;
+}
+.img-frame img {
+    width: 100%;
+}
+
+.img-frame p {
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.organisations img {
+    height: 60px;
+    margin: 30px 0;
+}
+

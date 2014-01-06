@@ -1,4 +1,4 @@
-body{padding-top: 70px; padding-bottom: 0 !important; margin: 0}k
+body{padding-top: 70px; padding-bottom: 0 !important; margin: 0}
 ul{padding: 0}
 html, body{overflow-x: hidden}
 .navbar-header .navbar-brand{color: #fff}
@@ -73,7 +73,7 @@ p span{font-weight: bold}
 .help .title{margin-bottom: 50px}
 
 /* Help edit page*/
-.using{margin-bottom: 0; padding: 30px; padding-bottom: 0}
+.using{margin-bottom: 0; padding: 15px; padding-bottom: 0}
 .using li a{color: #000; text-decoration: underline}
 .using ul, .using ul ul{padding: 0 30px}
 .installation{margin-bottom: 0; padding: 30px; padding-bottom: 0; padding-top: 70px;}
@@ -88,7 +88,7 @@ p span{font-weight: bold}
 .black{background: #555; margin-top: 20px; margin-bottom: 20px}
 .black p{color: #fff !important; font-size: 16px; font-weight: bold; margin-left: 55px; padding: 10px 0; margin-bottom: 0}
 .black img{height: 40px; margin: auto; position: absolute; top: 0; bottom: 0;}
-.head-link{padding: 0 30px; margin-bottom: 0}
+.head-link{padding: 0 15px; margin-bottom: 0}
 
 
 .offset{margin-bottom: 20px}
