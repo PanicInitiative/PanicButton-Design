@@ -23,82 +23,152 @@ $(document).ready(function(){
 
     var step_1 =
         '<div class="step-1" id="first">' +
-            '<p>What type of phone do you have?</p><br/>' +
-            '<p>' +
-                '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 col-sm-ref-offset-1 col-md-ref-offset-1 sub" role="button" data-option="sub_1">Basic Phone</a>' +
-                '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">Smart Phone - Android</a>' +
-                '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">Smart Phone - iphone</a>' +
-            '</p>' +
-            '<div class="clearfix"></div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+            '<div class="text">' +
+            '<p>What type of phone do you have?</p>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_1">Basic Phone</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_2">Smart Phone - Android</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_3">Smart Phone - iphone</a>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
             '<p>Question 1 / 5</p>' +
-            '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-1.png"></p></div>' +
-        '</div>';
+            '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+            '<p><img src="images/step-1.png"></p>' +
+            '</div>' +
+            '</div>';
 
     var step_2 =
         '<div class="step-2">' +
-            '<p>Do you own and have independent access to your phone?</p><br/>' +
-            '<p>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 col-sm-ref-offset-1 col-md-ref-offset-1 sub" role="button" data-option="sub_1">Yes </a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">No</a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">I do not know</a>' +
-            '</p>' +
-            '<div class="clearfix"></div>' +
-            '<p>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+            '<div class="text">' +
+            '<p>Do you own and have independent access to your phone?</p>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_1">Yes</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_2">No</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_3">I do not know</a>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-12 col-md-12 col-sm-12">' +
             '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
-            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 2 / 5</p>' +
-            '</p>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Question 2 / 5</p>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
             '<div class="clearfix"></div>' +
-            '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
-        '</div>';
+            '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+            '<p><img src="images/step-2.png"></p>' +
+            '</div>' +
+            '</div>';
 
     var step_3 =
         '<div class="step-3">' +
-            '<p>Do you have three trusted contacts in your network who can respond fast in an emergency?</p><br/>' +
-            '<p>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 col-sm-ref-offset-1 col-md-ref-offset-1 sub" role="button" data-option="sub_1">Yes </a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">No</a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">I do not know</a>' +
-            '</p>' +
-            '<div class="clearfix"></div>' +
-            '<p>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+            '<div class="text">' +
+            '<p>Do you have three trusted contacts in your network who can respond fast in an emergency?</p>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_1">Yes</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_2">No</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_3">I do not know</a>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-12 col-md-12 col-sm-12">' +
             '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
-            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 3 / 5</p>' +
-            '</p>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Question 3 / 5</p>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
             '<div class="clearfix"></div>' +
-            '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
-        '</div>';
+            '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+            '<p><img src="images/step-3.png"></p>' +
+            '</div>' +
+            '</div>';
 
     var step_4 =
         '<div class="step-4">' +
-            '<p>Which country are you based/do you work in?</p><br/>' +
-            '<p>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 col-sm-ref-offset-1 col-md-ref-offset-1 sub" role="button" data-option="sub_1">Highest band of telecoms monitoring (China, Iran, Syria etc)</a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-5 col-xs-12 col-sm-ref-offset-0 col-md-ref-offset-0 sub" role="button" data-option="sub_2">Second highest band</a>' +
-            '<a class="btn btn-dark col-lg-3 col-md-3 col-sm-6 col-xs-12 col-sm-offset-3 col-md-ref-offset-0 sub" role="button" data-option="sub_3">Lower band of risk</a>' +
-            '</p>' +
-            '<div class="clearfix"></div>' +
-            '<p>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+            '<div class="text">' +
+            '<p>Which country are you based/do you work in?</p>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_1">Highest band of telecoms monitoring (China, Iran, Syria etc)</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-sm-6">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_2">Second highest band</a>' +
+            '</div>' +
+            '<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">' +
+            '<a class="btn btn-dark sub" role="button" data-option="sub_3">Lower band of risk</a>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-12 col-md-12 col-sm-12">' +
             '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
-            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Question 4 / 5</p>' +
-            '</p>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Question 4 / 5</p>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
             '<div class="clearfix"></div>' +
-            '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-4.png"></p></div>' +
-        '</div>';
+            '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+            '<p><img src="images/step-4.png"></p>' +
+            '</div>' +
+            '</div>';
 
     var step_5 =
-            '<div class="step-5">' +
+        '<div class="step-5">' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+            '<div class="text">' +
             '<p>Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool!</p>' +
-            '<p>' +
             '<a class="col-xs-12 link" role="button">Read more about good practices</a>' +
-            '</p>' +
-            '<br>' +
-            '<div class="clearfix"></div>' +
-            '<p>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+            '<div class="row">' +
+            '<div class="col-lg-12 col-md-12 col-sm-12">' +
             '<a class="sub-back col-lg-2 col-md-2 col-sm-2 col-xs-12" role="button">back</a>' +
-            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 5 / 5</p>' +
-            '</p>' +
+            '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 5 / 5</p>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
             '<div class="clearfix"></div>' +
-            '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
+            '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+            '<p><img src="images/step-5.png"></p>' +
+            '</div>' +
             '</div>';
 
     var prev_content_1;
@@ -107,10 +177,8 @@ $(document).ready(function(){
     var prev_content_4;
     var subClick = function(){
         $('.form .sub').bind('click', function(){
-            var step = $(this).parent().parent().attr('class');
+            var step = $(this).parent().parent().parent().parent().attr('class');
             var sub_index = $(this).attr('data-option');
-            var sub_content = '';
-
             switch (step){
                 case "step-1":
                     if(sub_index){
@@ -118,19 +186,29 @@ $(document).ready(function(){
                             case "sub_1":
                                 sub_content =
                                     '<div class="step-1">' +
-                                        '<p class="border">Sorry, you must have an Android phone to use Panic Button.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                            '<div class="text border">' +
+                                                '<p>Sorry, you must have an Android phone to use Panic Button.</p>' +
+                                            '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                            '<div class="row">' +
+                                                '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                                    '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                                '</div>' +
+                                            '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                            '<div class="row">' +
+                                                '<div class="col-lg-12 col-md-12 col-sm-12">' +
+                                                    '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
+                                                    '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 1 / 5</p>' +
+                                                '</div>' +
+                                            '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<p>' +
-                                        '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3">' +
-                                        '<p><img src="images/step-1.png"></p>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                            '<p><img src="images/step-1.png"></p>' +
                                         '</div>' +
                                     '</div>';
                                 $('.form').animate({
@@ -146,19 +224,31 @@ $(document).ready(function(){
                             case "sub_2":
                                 sub_content =
                                     '<div class="step-1">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text">' +
                                         '<p>You should be able to use Panic Button on Android versions___-___</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 1 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-1.png"></p></div>' +
-                                    '</div>';
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-1.png"></p>' +
+                                        '</div>' +
+                                        '</div>';
                                 $('.form').animate({
                                     left: "-100%"
                                 }, 500, function(){
@@ -172,21 +262,32 @@ $(document).ready(function(){
                             case "sub_3":
                                 sub_content =
                                     '<div class="step-1">' +
-                                        '<p class="border">Android is an operating system designed for touchscreen mobile devices such as smartphones and tablet computers. You must have an Android phone to use Panic Button.</p>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Android is an operating system designed for touchscreen mobile devices such as smartphones and tablet computers. You must have an Android phone to use Panic Button.</p>' +
                                         '<a class="option" role="button">Tell us what model of phone you have. This will help us to prioritize future versions</a>' +
-                                        '</p>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 1 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 1 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-1.png"></p></div>' +
-                                    '</div>';
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-1.png"></p>' +
+                                        '</div>' +
+                                        '</div>';
                                 $('.form').animate({
                                     left: "-100%"
                                 }, 500, function(){
@@ -232,19 +333,31 @@ $(document).ready(function(){
                             case "sub_1":
                                 sub_content =
                                     '<div class="step-2">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text">' +
                                         '<p>Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 2 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
-                                    '</div>';
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-2.png"></p>' +
+                                        '</div>' +
+                                        '</div>';
                                 $('.form').animate({
                                     left: "-100%"
                                 }, 500, function(){
@@ -258,19 +371,31 @@ $(document).ready(function(){
                             case "sub_2":
                                 sub_content =
                                     '<div class="step-2">' +
-                                        '<p class="border">Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 2 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
-                                    '</div>';
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-2.png"></p>' +
+                                        '</div>' +
+                                        '</div>';
                                 $('.form').animate({
                                     left: "-100%"
                                 }, 500, function(){
@@ -284,19 +409,31 @@ $(document).ready(function(){
                             case "sub_3":
                                 sub_content =
                                     '<div class="step-2">' +
-                                        '<p class="border">Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 2 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 2 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-2.png"></p></div>' +
-                                    '</div>';
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-2.png"></p>' +
+                                        '</div>' +
+                                        '</div>';
                                 $('.form').animate({
                                     left: "-100%"
                                 }, 500, function(){
@@ -342,18 +479,30 @@ $(document).ready(function(){
                             case "sub_1":
                                 sub_content =
                                     '<div class="step-3">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text">' +
                                         '<p>Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 3 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-3.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -368,18 +517,30 @@ $(document).ready(function(){
                             case "sub_2":
                                 sub_content =
                                     '<div class="step-3">' +
-                                        '<p class="border">Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 3 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-3.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -394,18 +555,30 @@ $(document).ready(function(){
                             case "sub_3":
                                 sub_content =
                                     '<div class="step-3">' +
-                                        '<p class="border">Your trusted contacts should be people that you know personally and should be prepared and able to respond fast when you need them. Panic Button aims to send your emergency message/s but it will not ensure a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Your trusted contacts should be people that you know personally and should be prepared and able to respond fast when you need them. Panic Button aims to send your emergency message/s but it will not ensure a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 3 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 3 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-3.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-3.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -452,18 +625,30 @@ $(document).ready(function(){
                             case "sub_1":
                                 sub_content =
                                     '<div class="step-4">' +
-                                        '<p class="border">Your country is known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk. </p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Your country is known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 4 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-4.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -478,18 +663,30 @@ $(document).ready(function(){
                             case "sub_2":
                                 sub_content =
                                     '<div class="step-4">' +
-                                        '<p class="border">Needs text.</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue Anyway &emsp; &#62;</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text border">' +
+                                        '<p>Needs text.</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue Anyway &emsp; &#62;</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 4 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-4.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -504,21 +701,31 @@ $(document).ready(function(){
                             case "sub_3":
                                 sub_content =
                                     '<div class="step-4">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +
+                                        '<div class="text">' +
                                         '<p>Needs text.</p>' +
-                                        '<p>' +
                                         '<a class="option" role="button">Needs text.</a>' +
-                                        '</p>' +
-                                        '<br>' +
-                                        '<p>' +
-                                        '<a class="btn btn-dark col-lg-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 sub" role="button">Continue</a>' +
-                                        '</p>' +
-                                        '<div class="clearfix"></div>' +
-                                        '<p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-4 col-md-4 col-sm-6 offset">' +
+                                        '<a class="btn btn-dark sub" role="button">Continue</a>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">' +
+                                        '<div class="row">' +
+                                        '<div class="col-lg-12 col-md-12 col-sm-12">' +
                                         '<a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>' +
-                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12" role="button">Recommendation 4 / 5</p>' +
-                                        '</p>' +
+                                        '<p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation 4 / 5</p>' +
+                                        '</div>' +
+                                        '</div>' +
+                                        '</div>' +
                                         '<div class="clearfix"></div>' +
-                                        '<div class="step-progress col-lg-5 col-md-5 col-sm-5 col-xs-5 col-xs-offset-0 col-sm-ref-offset-2 col-md-ref-offset-2 col-xs-ref-offset-3"><p><img src="images/step-5.png"></p></div>' +
+                                        '<div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">' +
+                                        '<p><img src="images/step-4.png"></p>' +
+                                        '</div>' +
                                         '</div>';
                                 $('.form').animate({
                                     left: "-100%"
@@ -591,9 +798,8 @@ $(document).ready(function(){
 
     var backClick = function(){
         $('.form .sub-back').click(function(){
-            var back = $(this).parent().parent().attr('class');
+            var back = $(this).parent().parent().parent().parent().attr('class');
             var sub_content = '';
-            console.log(back);
 
             switch (back){
                 case "step-2":

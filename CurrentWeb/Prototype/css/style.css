@@ -28,6 +28,82 @@ span{font-weight: bold}
 .contact a{text-align: center; font-size: 14px; color: #fff; border-left: 1px solid #fff; padding: 0 10px}
 .contact a:first-child{border-left: 0}
 
+/* index page */
+.header h2, .header p {
+    color: #000;
+    font-weight: bold;
+}
+.header img {
+    height: 60px;
+}
+.carousel-control.left, .carousel-control.right {
+    background: none;
+    width: 2%;
+}
+
+.slide {
+    background: #eee;
+    color: inherit;
+}
+
+.features .text-center img {
+    height: 250px;
+}
+
+.download .img{text-align: center}
+.download .img img{margin-bottom: 30px}
+.down_lists .btn {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.text-left img {
+    float: right;
+}
+
+.down_lists .img-1, .down_lists .img-2, .down_lists .img-3{
+    /*width: auto;*/
+    height: 30px;
+    /*margin-right: 10px;*/
+    margin-top: 1px;
+    margin-bottom: 10px;
+    /*float: right;*/
+}
+
+.postion{
+    text-align: right;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+
+
+.offset-marge {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 25px;
+}
+
+.is .form{padding: 60px 80px}
+.form{height: 600px}
+.form p{font-size: 18px}
+.form .text-content{margin-bottom: 30px}
+.form .btn{width: 100%; white-space: normal}
+.offset{margin: 0 auto; float: none}
+.text{height: 260px; display: table-cell; vertical-align: middle; float: none; border: 5px solid #AAA; padding: 0 30px}
+.text p{text-align: center; width: 1600px; vertical-align: middle; display: table-cell}
+.step-progress img {width: 100%}
+.back, .option, .sub-back{display: inline-block; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #000; text-decoration: underline}
+.option{font-weight: bold; width: 100%}
+.back:hover, .back:active, .option:hover, .option:active, .sub-back:hover, .sub-back:active{color: #000}
+.step-5 .link{text-decoration: underline}
+.step-5 .link:hover{color: #000}
+.border{border: 5px solid #ff0000;}
+
+
+
+
 /* sign section */
 .sign {font-size: 14px; line-height: 1em; padding: 10px 0 !important; margin: 0}
 .sign-text {font-size: 18px; font-weight: bold; color: #fff !important; padding: 0; margin: 5px 0 !important; line-height: 1.4em}
@@ -52,4 +128,3 @@ span{font-weight: bold}
 /* top link */
 .top{padding-right: 0; padding-left: 0}
 .top p{margin-top: 8px}
-
