@@ -6,6 +6,7 @@ $(document).ready(function(){
         if($anchor){
             if(offset){
                 $('body').animate({ scrollTop: $anchor.top-offset});
+                return false;
             }else{
                 $('body').animate({ scrollTop: $anchor.top});
                 return false;
@@ -775,7 +776,8 @@ $(document).ready(function(){
     subClick();
 
     $('.nav li a').click(function(){
-        if( $(window).width() < 768 )
+        console.log($(window).width());
+        if( $(window).width() < 751 )
             $('.navbar-toggle').trigger('click');
     })
 

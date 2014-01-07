@@ -16,7 +16,7 @@ span{font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
 
 /* section style */
-.content{padding: 50px 0; font-size: 14px; margin-bottom: 0;}
+.content{padding: 60px 0; font-size: 14px; margin-bottom: 0;}
 
 /* footer content */
 .panel-footer{background: #555; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
