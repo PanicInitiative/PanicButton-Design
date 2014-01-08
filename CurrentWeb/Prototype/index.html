@@ -190,46 +190,25 @@
                 <p>Provides tips on security for safer use</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12">
-                <p class="text-center"><img src="images/img-4.png"></p>
-                <!--<div class="content carousel slide" data-ride="carousel">-->
-                    <!--<ol class="carousel-indicators">-->
-                        <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
-                        <!--<li data-target="#myCarousel" data-slide-to="1" class=""></li>-->
-                        <!--<li data-target="#myCarousel" data-slide-to="2" class=""></li>-->
-                    <!--</ol>-->
-                    <!--<div class="carousel-inner">-->
-                        <!--<div class="item active">-->
-                            <!--<div class="container">-->
-                                <!--<div class="row col-lg-4 col-sm-4 col-md-4">-->
-                                    <!--<div class="offset-1">-->
-                                        <!--<p class="text-center"><img src="images/img-1.png"></p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<div class="container">-->
-                                <!--<div class="row col-lg-4 col-sm-4 col-md-4">-->
-                                    <!--<div class="offset-1">-->
-                                        <!--<p class="text-center"><img src="images/img-1.png"></p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<div class="container">-->
-                                <!--<div class="row col-lg-4 col-sm-4 col-md-4">-->
-                                    <!--<div class="offset-1">-->
-                                        <!--<p class="text-center"><img src="images/img-1.png"></p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
+                <div class="carousel slideshow slide offset" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p class="text-center"><img src="images/screen.png"></p>
+                        </div>
+                        <div class="item">
+                            <p class="text-center"><img src="images/screen.png"></p>
+                        </div>
+                        <div class="item">
+                            <p class="text-center"><img src="images/screen.png"></p>
+                        </div>
+                        <div class="item">
+                            <p class="text-center"><img src="images/screen.png"></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="clearfix"></div>
-            <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">
+                </div>
+                <div class="clearfix"></div>
+                <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">
                 <a class="btn btn-dark" role="button" href="#download">Find out more &emsp; &#62;</a>
                 <a class="btn btn-dark" role="button" href="#download">Download <img src="images/download.png"></a>
             </p>
@@ -362,5 +341,8 @@
 <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript">
+    $('.slideshow').carousel({interval : 3000});
+</script>
 </body>
 </html>

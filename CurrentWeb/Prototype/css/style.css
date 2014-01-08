@@ -29,62 +29,22 @@ span{font-weight: bold}
 .contact a:first-child{border-left: 0}
 
 /* index page */
-.header h2, .header p {
-    color: #000;
-    font-weight: bold;
-}
-.header img {
-    height: 60px;
-}
-.carousel-control.left, .carousel-control.right {
-    background: none;
-    width: 2%;
-}
-
-.slide {
-    background: #eee;
-    color: inherit;
-}
-
-.features .text-center img {
-    height: 250px;
-}
-
+.header h2, .header p {color: #000; font-weight: bold}
+.header img {height: 60px}
+.carousel-control.left, .carousel-control.right {background: none; width: 2%}
+.slide {background: #eee; color: inherit}
+.features .text-center img {height: 250px}
 .download .img{text-align: center}
 .download .img img{margin-bottom: 30px}
-.down_lists .btn {
-    font-size: 12px;
-    margin-bottom: 0;
-}
-.text-left img {
-    float: right;
-}
+.down_lists .btn {font-size: 12px; margin-bottom: 0}
+.text-left img {float: right}
+.down_lists .img-1, .down_lists .img-2, .down_lists .img-3{height: 30px; margin-top: 1px; margin-bottom: 10px}
+.slideshow{width: 200px; height: 390px; background: url(../images/img-4.png); background-position: center; background-size: 100% 100%; padding: 68px 15px 58px 15px; margin-bottom: 20px !important}
+.slideshow .item img{width: 100%; height: auto}
 
-.down_lists .img-1, .down_lists .img-2, .down_lists .img-3{
-    /*width: auto;*/
-    height: 30px;
-    /*margin-right: 10px;*/
-    margin-top: 1px;
-    margin-bottom: 10px;
-    /*float: right;*/
-}
-
-.postion{
-    text-align: right;
-}
-
-.text-left {
-    text-align: left !important;
-}
-
-
-
-.offset-marge {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 25px;
-}
-
+.postion{text-align: right}
+.text-left {text-align: left !important}
+.offset-marge {margin: 0 auto; float: none;margin-bottom: 25px}
 .is .form{padding: 60px 80px}
 .form{height: 600px}
 .form p{font-size: 18px}
@@ -100,9 +60,6 @@ span{font-weight: bold}
 .step-5 .link{text-decoration: underline}
 .step-5 .link:hover{color: #000}
 .border{border: 5px solid #ff0000;}
-
-
-
 
 /* sign section */
 .sign {font-size: 14px; line-height: 1em; padding: 10px 0 !important; margin: 0}

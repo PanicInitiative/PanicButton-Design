@@ -181,3 +181,7 @@
     .down_lists .postion{text-align: center}
     .down_lists .postion img{margin: 10px 0}
 }
+
+@media (max-width: 240px){
+    .slideshow { width: 100%; height: auto; padding: 35% 7% 23% 7%}
+}
