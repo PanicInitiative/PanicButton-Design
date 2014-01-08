@@ -22,7 +22,6 @@ $(document).ready(function(){
         }
     })
 
-
     var step_1 =
         '<div class="step-1" id="first">' +
             '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">' +

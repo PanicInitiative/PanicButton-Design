@@ -400,10 +400,11 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     if ($next.hasClass('active')) return
 
     if (this.$indicators.length) {
-      this.$indicators.find('.active').removeClass('active')
+      this.$indicators.find('.active').removeClass('active');
+
       this.$element.one('slid.bs.carousel', function () {
         var $nextIndicator = $(that.$indicators.children()[that.getActiveIndex()])
-        $nextIndicator && $nextIndicator.addClass('active')
+        $nextIndicator && $nextIndicator.addClass('active');
       })
     }
 
@@ -421,7 +422,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
           that.sliding = false
           setTimeout(function () { that.$element.trigger('slid.bs.carousel') }, 0)
         })
-        .emulateTransitionEnd(600)
+        .emulateTransitionEnd(600) //erik
     } else {
       this.$element.trigger(e)
       if (e.isDefaultPrevented()) return

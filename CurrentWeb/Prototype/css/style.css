@@ -32,7 +32,7 @@ span{font-weight: bold}
 .header h2, .header p {color: #000; font-weight: bold}
 .header img {height: 60px}
 .carousel-control.left, .carousel-control.right {background: none; width: 2%}
-.slide {background: #eee; color: inherit}
+.slide {background: #efefef; color: inherit}
 .features .text-center img {height: 250px}
 .download .img{text-align: center}
 .download .img img{margin-bottom: 30px}
@@ -42,8 +42,9 @@ span{font-weight: bold}
 .slideshow{width: 200px; height: 390px; background: url(../images/img-4.png); background-position: center; background-size: 100% 100%; padding: 68px 15px 58px 15px; margin-bottom: 20px !important}
 .slideshow .item img{width: 100%; height: auto}
 .selector {position: relative; bottom: 0; left: 0; z-index: 15; width: auto; padding-left: 0; margin-left: 0; text-align: left; list-style: none}
-.selector li {display: inline-block; width: 100% !important; height: auto !important; margin: 0; text-indent: 0px; cursor: pointer; background-color: transparent; background-color: transparent; border: 0px; border-radius: 0px}
-.selector .active {font-weight: bold; background: transparent; border: 0}
+.selector li {display: inline-block; width: 100% !important; height: auto !important; margin: 0; text-indent: 0px; cursor: pointer; background-color: transparent; background-color: transparent; border: 0px; border-radius: 0px; background: transparent}
+.selector li p{margin: 0}
+.selector .active, .selector .next, .selector .item{background: #999999; color: #fff; border: 0}
 .postion{text-align: right}
 .text-left {text-align: left !important}
 .offset-marge {margin: 0 auto; float: none;margin-bottom: 25px}
@@ -87,3 +88,5 @@ span{font-weight: bold}
 /* top link */
 .top{padding-right: 0; padding-left: 0}
 .top p{margin-top: 8px}
+
+/* bootstrap */
