@@ -179,40 +179,47 @@
 
     <section class="grey" id="features" data-offset="100">
         <div class="content features grey container jumbotron">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <p class="btn btn-dark title" role="button">PANIC BUTTON<span>'s Features</span></p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12">
-                <p>Sends emergency SMS to your three trusted contacts in an emergency</p>
-                <p>Attaches map link with location coordinates when GPS is enabled</p>
-                <p>Alerts discretely and rapidly from phone's power button</p>
-                <p class="grey-1 container">Protects app data with disguise screen and pin number</p>
-                <p>Provides tips on security for safer use</p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12">
-                <div class="carousel slideshow slide offset" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <p class="text-center"><img src="images/screen.png"></p>
-                        </div>
-                        <div class="item">
-                            <p class="text-center"><img src="images/screen.png"></p>
-                        </div>
-                        <div class="item">
-                            <p class="text-center"><img src="images/screen.png"></p>
-                        </div>
-                        <div class="item">
-                            <p class="text-center"><img src="images/screen.png"></p>
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="btn btn-dark title" role="button">PANIC BUTTON<span>'s Features</span></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12">
+                    <ol class="carousel-indicators selector">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"><p>Sends emergency SMS to your three trusted contacts in an emergency</p></li>
+                        <li data-target="#slideshow" data-slide-to="1" class=""><p>Attaches map link with location coordinates when GPS is enabled</p></li>
+                        <li data-target="#slideshow" data-slide-to="2" class=""><p>Alerts discretely and rapidly from phone's power button</p></li>
+                        <li data-target="#slideshow" data-slide-to="3" class=""><p class="grey-1 container">Protects app data with disguise screen and pin number</p></li>
+                        <li data-target="#slideshow" data-slide-to="4" class=""><p>Provides tips on security for safer use</p></li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12">
+                    <div class="slideshow offset">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <p class="text-center"><img src="images/screen.png"></p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center"><img src="images/screen.png"></p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center"><img src="images/screen.png"></p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center"><img src="images/screen.png"></p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center"><img src="images/screen.png"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                </div>
                 <div class="clearfix"></div>
                 <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">
-                <a class="btn btn-dark" role="button" href="#download">Find out more &emsp; &#62;</a>
-                <a class="btn btn-dark" role="button" href="#download">Download <img src="images/download.png"></a>
-            </p>
-            <div class="clearfix"></div>
+                    <a class="btn btn-dark" role="button" href="#download">Find out more &emsp; &#62;</a>
+                    <a class="btn btn-dark" role="button" href="#download">Download <img src="images/download.png"></a>
+                </p>
+                <div class="clearfix"></div>
+            </div>
         </div>
     </section>
 
@@ -342,7 +349,8 @@
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript">
-    $('.slideshow').carousel({interval : 3000});
+    $('#myCarousel').carousel();
+    $('#slideshow').carousel({interval: 3000});
 </script>
 </body>
 </html>
