@@ -3,12 +3,13 @@ $(document).ready(function(){
         var $href = $(this).attr('href');
         var offset = $(this).attr('data-offset');
         var $anchor = $($href).offset();
+
         if($anchor){
             if(offset){
-                $('body').animate({ scrollTop: $anchor.top-offset});
+                $('body, html').animate({ scrollTop: $anchor.top-offset});
                 return false;
             }else{
-                $('body').animate({ scrollTop: $anchor.top});
+                $('body, html').animate({ scrollTop: $anchor.top});
                 return false;
             }
         }
@@ -16,7 +17,7 @@ $(document).ready(function(){
             if($(this).hasClass('restart') || $(this).hasClass('sub') )
                 return true;
             else
-                $('body').animate({ scrollTop: 0 });
+                $('body, html').animate({ scrollTop: 0 });
                 return true;
         }
     })
@@ -776,7 +777,6 @@ $(document).ready(function(){
     subClick();
 
     $('.nav li a').click(function(){
-        console.log($(window).width());
         if( $(window).width() < 751 )
             $('.navbar-toggle').trigger('click');
     })
