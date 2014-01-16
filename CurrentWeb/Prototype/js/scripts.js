@@ -780,22 +780,22 @@ $(document).ready(function(){
             $('.navbar-toggle').trigger('click');
     })
 
-    $('.btn.btn-dark.restart').click(function(){
-        sub_content = step_1;
-        if($('.form').children().attr('id') == 'first'){
-            return true;
-        }else{
-            $('.form').animate({
-                left: "100%"
-            }, 500, function(){
-                $('.form').html(sub_content);
-                $('.form').css('left', '-100%');
-                subClick();
-            }).animate({
-                    left: 0
-                }, 500);
-        }
-    })
+//    $('.btn.btn-dark.restart').click(function(){
+//        sub_content = step_1;
+//        if($('.form').children().attr('id') == 'first'){
+//            return true;
+//        }else{
+//            $('.form').animate({
+//                left: "100%"
+//            }, 500, function(){
+//                $('.form').html(sub_content);
+//                $('.form').css('left', '-100%');
+//                subClick();
+//            }).animate({
+//                    left: 0
+//                }, 500);
+//        }
+//    })
 
     var backClick = function(){
         $('.form .sub-back').click(function(){

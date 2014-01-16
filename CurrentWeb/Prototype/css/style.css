@@ -11,7 +11,42 @@ span{font-weight: bold}
 
 /* button style */
 .btn-dark{background: #000; color: #fff !important; border-radius: 5px; margin-bottom: 30px; white-space: normal}
-.title{font-size: 16px !important; cursor: default; border-radius: 0 !important}
+.title {
+    cursor: default;
+    background: transparent;
+    color: #000;
+    border-radius: 0px;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    white-space: normal;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+}
+.title:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.title:hover,
+.title:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.title:active,
+.title.active {
+    background-image: none;
+    outline: 0;
+}
+
+.icon{width: 20px; height: 20px; background: black; border-radius: 15px; padding: 3px 8px; font-size: 16px; font-weight: normal;}
 .btn-grey{background: #AAA; color: #fff; border-radius: 0; margin-bottom: 15px; font-weight: bold}
 .btn-dark:hover, .btn-dark:focus, .btn-grey:hover, .btn-grey:focus{color: #fff;text-decoration: none}
 
